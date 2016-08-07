@@ -7,6 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6D279CC41D56F25900DB6434 /* poster.png in Resources */ = {isa = PBXBuildFile; fileRef = 6D279CC31D56F25900DB6434 /* poster.png */; };
+		6D279CC81D56F30B00DB6434 /* blue-paper-robot-wallpaper.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 6D279CC71D56F30B00DB6434 /* blue-paper-robot-wallpaper.jpg */; };
+		6D279CCF1D56F4F500DB6434 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D279CCE1D56F4F500DB6434 /* MainViewController.swift */; };
+		6DB00C641D57015C007A9137 /* classical.png in Resources */ = {isa = PBXBuildFile; fileRef = 6DB00C621D57015C007A9137 /* classical.png */; };
+		6DB00C651D57015C007A9137 /* rap.png in Resources */ = {isa = PBXBuildFile; fileRef = 6DB00C631D57015C007A9137 /* rap.png */; };
+		6DB00C6C1D57083F007A9137 /* icon record.png in Resources */ = {isa = PBXBuildFile; fileRef = 6DB00C6B1D57083F007A9137 /* icon record.png */; };
+		6DB00C6E1D570A3D007A9137 /* Build.png in Resources */ = {isa = PBXBuildFile; fileRef = 6DB00C6D1D570A3D007A9137 /* Build.png */; };
+		6DB00C721D570C6C007A9137 /* record.png in Resources */ = {isa = PBXBuildFile; fileRef = 6DB00C711D570C6C007A9137 /* record.png */; };
 		9D6BF5AC175C3A0D00DF6B15 /* ORSSplitViewManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D6BF5AB175C3A0D00DF6B15 /* ORSSplitViewManager.m */; };
 		9D6BF5AF175C3C9900DF6B15 /* ORSSoundboardViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D6BF5AE175C3C9900DF6B15 /* ORSSoundboardViewController.m */; };
 		9D6BF5E2175EA60E00DF6B15 /* Black.png in Resources */ = {isa = PBXBuildFile; fileRef = 9D6BF5E1175EA60E00DF6B15 /* Black.png */; };
@@ -79,6 +87,15 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		6D279CC31D56F25900DB6434 /* poster.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = poster.png; sourceTree = "<group>"; };
+		6D279CC71D56F30B00DB6434 /* blue-paper-robot-wallpaper.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "blue-paper-robot-wallpaper.jpg"; sourceTree = "<group>"; };
+		6D279CCB1D56F46800DB6434 /* MIDI Soundboard-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "MIDI Soundboard-Bridging-Header.h"; sourceTree = "<group>"; };
+		6D279CCE1D56F4F500DB6434 /* MainViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		6DB00C621D57015C007A9137 /* classical.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = classical.png; sourceTree = "<group>"; };
+		6DB00C631D57015C007A9137 /* rap.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = rap.png; sourceTree = "<group>"; };
+		6DB00C6B1D57083F007A9137 /* icon record.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon record.png"; sourceTree = "<group>"; };
+		6DB00C6D1D570A3D007A9137 /* Build.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Build.png; sourceTree = "<group>"; };
+		6DB00C711D570C6C007A9137 /* record.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = record.png; sourceTree = "<group>"; };
 		9D6BF5AA175C3A0D00DF6B15 /* ORSSplitViewManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ORSSplitViewManager.h; sourceTree = "<group>"; };
 		9D6BF5AB175C3A0D00DF6B15 /* ORSSplitViewManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ORSSplitViewManager.m; sourceTree = "<group>"; };
 		9D6BF5AD175C3C9900DF6B15 /* ORSSoundboardViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ORSSoundboardViewController.h; sourceTree = "<group>"; };
@@ -203,6 +220,13 @@
 		9D8E68E9175C1AB3006546F6 /* Images */ = {
 			isa = PBXGroup;
 			children = (
+				6DB00C711D570C6C007A9137 /* record.png */,
+				6DB00C6D1D570A3D007A9137 /* Build.png */,
+				6DB00C6B1D57083F007A9137 /* icon record.png */,
+				6DB00C621D57015C007A9137 /* classical.png */,
+				6DB00C631D57015C007A9137 /* rap.png */,
+				6D279CC71D56F30B00DB6434 /* blue-paper-robot-wallpaper.jpg */,
+				6D279CC31D56F25900DB6434 /* poster.png */,
 				9D6BF5E1175EA60E00DF6B15 /* Black.png */,
 				9D8E68EA175C1AB3006546F6 /* Default-568h@2x.png */,
 				9D8E68EB175C1AB3006546F6 /* Default.png */,
@@ -229,6 +253,8 @@
 				9D6BF5AE175C3C9900DF6B15 /* ORSSoundboardViewController.m */,
 				9D6BF5AA175C3A0D00DF6B15 /* ORSSplitViewManager.h */,
 				9D6BF5AB175C3A0D00DF6B15 /* ORSSplitViewManager.m */,
+				6D279CCB1D56F46800DB6434 /* MIDI Soundboard-Bridging-Header.h */,
+				6D279CCE1D56F4F500DB6434 /* MainViewController.swift */,
 			);
 			name = "UI Controllers";
 			sourceTree = "<group>";
@@ -340,13 +366,20 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6DB00C641D57015C007A9137 /* classical.png in Resources */,
 				9D8E68EE175C1AB3006546F6 /* InfoPlist.strings in Resources */,
 				9D8E68EF175C1AB3006546F6 /* MainStoryboard_iPad.storyboard in Resources */,
 				9D8E68F0175C1AB3006546F6 /* MainStoryboard_iPhone.storyboard in Resources */,
+				6D279CC41D56F25900DB6434 /* poster.png in Resources */,
+				6D279CC81D56F30B00DB6434 /* blue-paper-robot-wallpaper.jpg in Resources */,
+				6DB00C6C1D57083F007A9137 /* icon record.png in Resources */,
 				9D7B3BCE1CFF7E8D00822CE3 /* Grand Piano.sf2 in Resources */,
 				9D8E68F1175C1AB3006546F6 /* Default-568h@2x.png in Resources */,
 				9D8E68F2175C1AB3006546F6 /* Default.png in Resources */,
+				6DB00C721D570C6C007A9137 /* record.png in Resources */,
+				6DB00C651D57015C007A9137 /* rap.png in Resources */,
 				9D8E68F3175C1AB3006546F6 /* Default@2x.png in Resources */,
+				6DB00C6E1D570A3D007A9137 /* Build.png in Resources */,
 				9D6BF5E2175EA60E00DF6B15 /* Black.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -358,6 +391,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6D279CCF1D56F4F500DB6434 /* MainViewController.swift in Sources */,
 				9D8E68DF175C1AAE006546F6 /* main.m in Sources */,
 				9D8E68E0175C1AAE006546F6 /* ORSAppDelegate.m in Sources */,
 				9D8E6939175C1BD6006546F6 /* ORSAvailableDevicesTableViewController.m in Sources */,
@@ -467,6 +501,7 @@
 		9D8E68D6175C1A6A006546F6 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
@@ -482,6 +517,8 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "com.openreelsoftware.com.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "Sources/MIDI Soundboard-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -489,6 +526,7 @@
 		9D8E68D7175C1A6A006546F6 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
@@ -504,6 +542,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "com.openreelsoftware.com.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "Sources/MIDI Soundboard-Bridging-Header.h";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;

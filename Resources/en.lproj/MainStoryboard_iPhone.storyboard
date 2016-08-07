@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="10117" systemVersion="15D21" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" initialViewController="2tV-F0-4iP">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="10117" systemVersion="15D21" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" initialViewController="uqK-po-lql">
     <dependencies>
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
@@ -18,8 +18,8 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hBp-fH-Q1e" customClass="ORSPianoButton">
-                                <rect key="frame" x="0.0" y="152" width="39" height="242"/>
-                                <color key="backgroundColor" red="0.63273237179487185" green="0.63273237179487185" blue="0.63273237179487185" alpha="1" colorSpace="calibratedRGB"/>
+                                <rect key="frame" x="0.0" y="181" width="39" height="242"/>
+                                <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                 <state key="normal">
                                     <color key="titleShadowColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
@@ -30,8 +30,8 @@
                                 </userDefinedRuntimeAttributes>
                             </button>
                             <button opaque="NO" tag="2" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="h3E-Sj-I2K" customClass="ORSPianoButton">
-                                <rect key="frame" x="40" y="152" width="39" height="242"/>
-                                <color key="backgroundColor" red="0.63273237179999997" green="0.63273237179999997" blue="0.63273237179999997" alpha="1" colorSpace="calibratedRGB"/>
+                                <rect key="frame" x="40" y="181" width="39" height="242"/>
+                                <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                 <state key="normal">
                                     <color key="titleColor" red="0.8980392157" green="0.0078431372550000003" blue="0.10980392160000001" alpha="1" colorSpace="calibratedRGB"/>
                                     <color key="titleShadowColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
@@ -42,9 +42,9 @@
                                     </userDefinedRuntimeAttribute>
                                 </userDefinedRuntimeAttributes>
                             </button>
-                            <button opaque="NO" alpha="0.94999999999999996" tag="4" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="WcV-s6-ubI" customClass="ORSPianoButton">
-                                <rect key="frame" x="80" y="152" width="39" height="242"/>
-                                <color key="backgroundColor" red="0.63273237179999997" green="0.63273237179999997" blue="0.63273237179999997" alpha="1" colorSpace="calibratedRGB"/>
+                            <button opaque="NO" tag="4" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="WcV-s6-ubI" customClass="ORSPianoButton">
+                                <rect key="frame" x="80" y="181" width="39" height="242"/>
+                                <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                 <state key="normal">
                                     <color key="titleColor" red="0.8980392157" green="0.0078431372550000003" blue="0.10980392160000001" alpha="1" colorSpace="calibratedRGB"/>
                                     <color key="titleShadowColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
@@ -55,9 +55,9 @@
                                     </userDefinedRuntimeAttribute>
                                 </userDefinedRuntimeAttributes>
                             </button>
-                            <button opaque="NO" alpha="0.94999998807907104" tag="5" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="IJI-TA-0dW" customClass="ORSPianoButton">
-                                <rect key="frame" x="120" y="152" width="39" height="242"/>
-                                <color key="backgroundColor" red="0.63273237179999997" green="0.63273237179999997" blue="0.63273237179999997" alpha="1" colorSpace="calibratedRGB"/>
+                            <button opaque="NO" tag="5" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="IJI-TA-0dW" customClass="ORSPianoButton">
+                                <rect key="frame" x="120" y="181" width="39" height="242"/>
+                                <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                 <state key="normal">
                                     <color key="titleColor" red="0.8980392157" green="0.0078431372550000003" blue="0.10980392160000001" alpha="1" colorSpace="calibratedRGB"/>
                                     <color key="titleShadowColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
@@ -68,9 +68,9 @@
                                     </userDefinedRuntimeAttribute>
                                 </userDefinedRuntimeAttributes>
                             </button>
-                            <button opaque="NO" alpha="0.94999998807907104" tag="7" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="CfV-eO-ReD" customClass="ORSPianoButton">
-                                <rect key="frame" x="160" y="152" width="39" height="242"/>
-                                <color key="backgroundColor" red="0.63273237179999997" green="0.63273237179999997" blue="0.63273237179999997" alpha="1" colorSpace="calibratedRGB"/>
+                            <button opaque="NO" tag="7" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="CfV-eO-ReD" customClass="ORSPianoButton">
+                                <rect key="frame" x="160" y="181" width="39" height="242"/>
+                                <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                 <state key="normal">
                                     <color key="titleColor" red="0.8980392157" green="0.0078431372550000003" blue="0.10980392160000001" alpha="1" colorSpace="calibratedRGB"/>
                                     <color key="titleShadowColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
@@ -81,9 +81,9 @@
                                     </userDefinedRuntimeAttribute>
                                 </userDefinedRuntimeAttributes>
                             </button>
-                            <button opaque="NO" alpha="0.94999998807907104" tag="9" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="8pQ-AN-MgE" customClass="ORSPianoButton">
-                                <rect key="frame" x="200" y="152" width="39" height="242"/>
-                                <color key="backgroundColor" red="0.63273237179999997" green="0.63273237179999997" blue="0.63273237179999997" alpha="1" colorSpace="calibratedRGB"/>
+                            <button opaque="NO" tag="9" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="8pQ-AN-MgE" customClass="ORSPianoButton">
+                                <rect key="frame" x="200" y="181" width="39" height="242"/>
+                                <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                 <state key="normal">
                                     <color key="titleColor" red="0.8980392157" green="0.0078431372550000003" blue="0.10980392160000001" alpha="1" colorSpace="calibratedRGB"/>
                                     <color key="titleShadowColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
@@ -94,9 +94,9 @@
                                     </userDefinedRuntimeAttribute>
                                 </userDefinedRuntimeAttributes>
                             </button>
-                            <button opaque="NO" alpha="0.94999998807907104" tag="10" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="i6H-dY-hgS" customClass="ORSPianoButton">
-                                <rect key="frame" x="240" y="152" width="39" height="242"/>
-                                <color key="backgroundColor" red="0.63273237179999997" green="0.63273237179999997" blue="0.63273237179999997" alpha="1" colorSpace="calibratedRGB"/>
+                            <button opaque="NO" tag="10" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="i6H-dY-hgS" customClass="ORSPianoButton">
+                                <rect key="frame" x="240" y="181" width="39" height="242"/>
+                                <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                 <state key="normal">
                                     <color key="titleColor" red="0.8980392157" green="0.0078431372550000003" blue="0.10980392160000001" alpha="1" colorSpace="calibratedRGB"/>
                                     <color key="titleShadowColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
@@ -107,9 +107,9 @@
                                     </userDefinedRuntimeAttribute>
                                 </userDefinedRuntimeAttributes>
                             </button>
-                            <button opaque="NO" alpha="0.94999998807907104" tag="12" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="t9T-l3-dZL" customClass="ORSPianoButton">
-                                <rect key="frame" x="280" y="152" width="39" height="242"/>
-                                <color key="backgroundColor" red="0.63273237179999997" green="0.63273237179999997" blue="0.63273237179999997" alpha="1" colorSpace="calibratedRGB"/>
+                            <button opaque="NO" tag="12" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="t9T-l3-dZL" customClass="ORSPianoButton">
+                                <rect key="frame" x="280" y="181" width="39" height="242"/>
+                                <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                 <state key="normal">
                                     <color key="titleColor" red="0.8980392157" green="0.0078431372550000003" blue="0.10980392160000001" alpha="1" colorSpace="calibratedRGB"/>
                                     <color key="titleShadowColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
@@ -121,60 +121,99 @@
                                 </userDefinedRuntimeAttributes>
                             </button>
                             <button opaque="NO" tag="3" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="g26-H3-WzR" customClass="ORSPianoButton">
-                                <rect key="frame" x="65" y="152" width="30" height="168"/>
+                                <rect key="frame" x="65" y="181" width="30" height="168"/>
                                 <state key="normal" backgroundImage="Default.png">
                                     <color key="titleShadowColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                             </button>
                             <button opaque="NO" tag="6" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="DcK-VX-beq" customClass="ORSPianoButton">
-                                <rect key="frame" x="145" y="152" width="30" height="168"/>
+                                <rect key="frame" x="145" y="181" width="30" height="168"/>
                                 <state key="normal" backgroundImage="Black.png">
                                     <color key="titleShadowColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                             </button>
                             <button opaque="NO" tag="8" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="XaW-rn-lxh" customClass="ORSPianoButton">
-                                <rect key="frame" x="185" y="152" width="30" height="168"/>
+                                <rect key="frame" x="185" y="181" width="30" height="168"/>
                                 <state key="normal" backgroundImage="Black.png">
                                     <color key="titleShadowColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                             </button>
                             <button opaque="NO" tag="11" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="geI-d6-KVm" customClass="ORSPianoButton">
-                                <rect key="frame" x="265" y="152" width="30" height="168"/>
+                                <rect key="frame" x="265" y="181" width="30" height="168"/>
                                 <state key="normal" backgroundImage="Black.png">
                                     <color key="titleShadowColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                             </button>
                             <button opaque="NO" tag="1" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="YI2-Mw-w4n" customClass="ORSPianoButton">
-                                <rect key="frame" x="25" y="152" width="30" height="168"/>
+                                <rect key="frame" x="25" y="181" width="30" height="168"/>
                                 <state key="normal" backgroundImage="Black.png">
                                     <color key="titleShadowColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="quy-mx-UJp">
-                                <rect key="frame" x="40" y="482" width="81" height="30"/>
-                                <state key="normal" title="Record"/>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="quy-mx-UJp">
+                                <rect key="frame" x="27" y="434" width="111" height="82"/>
+                                <color key="backgroundColor" red="0.48160751689999998" green="0.49768086030000003" blue="0.51386217950000002" alpha="1" colorSpace="calibratedRGB"/>
+                                <state key="normal" image="record.png"/>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                        <integer key="value" value="9"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
                                 <connections>
                                     <action selector="record:" destination="2tV-F0-4iP" eventType="touchUpInside" id="fEg-FM-z3i"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="mYM-m4-5au">
-                                <rect key="frame" x="137" y="422" width="46" height="30"/>
-                                <state key="normal" title="Send"/>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="mYM-m4-5au">
+                                <rect key="frame" x="180" y="434" width="120" height="82"/>
+                                <color key="backgroundColor" red="0.48160751686976144" green="0.49768086034536302" blue="0.51386217948717949" alpha="1" colorSpace="calibratedRGB"/>
+                                <state key="normal" image="Build.png"/>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                        <integer key="value" value="9"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
                                 <connections>
                                     <action selector="sendOff:" destination="2tV-F0-4iP" eventType="touchUpInside" id="zaV-32-9Sf"/>
                                 </connections>
                             </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gNG-zU-lpP">
+                                <rect key="frame" x="0.0" y="85" width="121" height="75"/>
+                                <state key="normal" image="rap.png"/>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="vHf-7g-9Sw">
+                                <rect key="frame" x="160" y="85" width="150" height="63"/>
+                                <state key="normal" image="classical.png"/>
+                            </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="kAH-6d-eQl">
-                                <rect key="frame" x="200" y="482" width="81" height="30"/>
+                                <rect key="frame" x="120" y="524" width="81" height="30"/>
                                 <state key="normal" title="Play"/>
                                 <connections>
                                     <action selector="play:" destination="2tV-F0-4iP" eventType="touchUpInside" id="1BZ-pV-MX9"/>
                                 </connections>
                             </button>
                         </subviews>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <color key="backgroundColor" red="0.76488311539999998" green="0.89817798910000002" blue="0.93175080129999999" alpha="1" colorSpace="calibratedRGB"/>
                     </view>
-                    <navigationItem key="navigationItem" id="uGr-Ot-v51"/>
+                    <navigationItem key="navigationItem" id="uGr-Ot-v51">
+                        <barButtonItem key="rightBarButtonItem" style="plain" id="WGi-iO-oV2">
+                            <button key="customView" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" hasAttributedTitle="YES" id="nl5-mp-rD9">
+                                <rect key="frame" x="233" y="7" width="71" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal">
+                                    <attributedString key="attributedTitle">
+                                        <fragment content="Songs">
+                                            <attributes>
+                                                <font key="NSFont" size="13" name="HelveticaNeue"/>
+                                            </attributes>
+                                        </fragment>
+                                    </attributedString>
+                                </state>
+                                <connections>
+                                    <segue destination="G5e-G9-tgV" kind="push" id="Lfa-QO-vQD"/>
+                                </connections>
+                            </button>
+                        </barButtonItem>
+                    </navigationItem>
                     <connections>
                         <outletCollection property="pianoButtons" destination="hBp-fH-Q1e" id="Bzp-w1-svD"/>
                         <outletCollection property="pianoButtons" destination="h3E-Sj-I2K" id="POx-hk-uWn"/>
@@ -193,11 +232,87 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Gs1-00-Xsv" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="339" y="254"/>
+            <point key="canvasLocation" x="731" y="116"/>
+        </scene>
+        <!--AV Player View Controller-->
+        <scene sceneID="Uht-ts-R7u">
+            <objects>
+                <avPlayerViewController videoGravity="AVLayerVideoGravityResizeAspect" id="G5e-G9-tgV" sceneMemberID="viewController">
+                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" id="DdX-Lw-4pA">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </tableView>
+                    <navigationItem key="navigationItem" id="IaJ-gr-lpF"/>
+                </avPlayerViewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="WHu-cA-HGG" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1244" y="151"/>
+        </scene>
+        <!--Main View Controller-->
+        <scene sceneID="p6J-uR-5a4">
+            <objects>
+                <viewController id="pqC-nb-PAb" customClass="MainViewController" customModule="MIDI_Soundboard" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="bDK-Jt-mkM"/>
+                        <viewControllerLayoutGuide type="bottom" id="5LC-LT-1Gs"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="fij-mb-U9Z">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="blue-paper-robot-wallpaper.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="Rn5-8C-FNA">
+                                <rect key="frame" x="66" y="198" width="188" height="256"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="poster.png" translatesAutoresizingMaskIntoConstraints="NO" id="hSx-xV-VIh">
+                                <rect key="frame" x="40" y="43" width="240" height="128"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="DxQ-5j-s85">
+                                <rect key="frame" x="137" y="503" width="46" height="30"/>
+                                <state key="normal" title="Start"/>
+                                <connections>
+                                    <segue destination="2tV-F0-4iP" kind="push" id="dPD-Ss-2tY"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" red="0.76488311535738018" green="0.89817798914591174" blue="0.93175080128205123" alpha="1" colorSpace="calibratedRGB"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="HDX-Ql-fE8"/>
+                    <connections>
+                        <outlet property="startButton" destination="DxQ-5j-s85" id="a9b-77-eQ2"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="kgb-tw-lBW" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="447" y="612"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="Tn6-EM-eAN">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="uqK-po-lql" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="8wB-bp-c7B">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="pqC-nb-PAb" kind="relationship" relationship="rootViewController" id="6AK-6g-rMy"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="ymk-S5-sk8" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-85" y="612"/>
         </scene>
     </scenes>
     <resources>
         <image name="Black.png" width="26" height="25"/>
+        <image name="Build.png" width="200" height="200"/>
         <image name="Default.png" width="320" height="480"/>
+        <image name="blue-paper-robot-wallpaper.jpg" width="629" height="925"/>
+        <image name="classical.png" width="446" height="213"/>
+        <image name="poster.png" width="826" height="420"/>
+        <image name="rap.png" width="350" height="249"/>
+        <image name="record.png" width="200" height="200"/>
     </resources>
 </document>

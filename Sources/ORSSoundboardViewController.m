@@ -39,10 +39,12 @@
     NSURL *tmpDirURL = [NSURL fileURLWithPath:NSTemporaryDirectory() isDirectory:YES];
     NSURL *fileURL = [[tmpDirURL URLByAppendingPathComponent:@"file"] URLByAppendingPathComponent:@"mid"];
     [self.sequence writeToURL:fileURL error:NULL];
+    NSLog(@"file written");
     
     NSData *midiFile = [[NSData alloc] initWithContentsOfFile:[fileURL path]];
-    NSString *urlString = @"http://link that cole will give";
+    NSString *urlString = @"https://64.173.45.245:3000/midi_input";
     NSMutableURLRequest *request = [[NSMutableURLRequest alloc] init];
+    
     [request setURL:[NSURL URLWithString:urlString]];
     [request setHTTPMethod:@"POST"];
     
@@ -59,21 +61,49 @@
     
     [request setHTTPBody:body];
     
-    NSData *returnData = [NSURLConnection sendSynchronousRequest:request returningResponse:nil error:nil];
-    NSString *returnString = [[NSString alloc] initWithData:returnData encoding:NSUTF8StringEncoding];
+    [NSURLConnection sendAsynchronousRequest:request queue:[NSOperationQueue mainQueue] completionHandler:^(NSURLResponse *response, NSData *data, NSError *connectionError){
+        
+        NSArray *paths = NSSearchPathForDirectoriesInDomains
+        (NSDocumentDirectory, NSUserDomainMask, YES);
+        NSString *documentsDirectory = [paths objectAtIndex:0];
+        NSString *randomStr = [[NSProcessInfo processInfo] globallyUniqueString];
+        //make a file name to write the data to using the documents directory:
+        NSString *fileName = [NSString stringWithFormat:@"%@/%@.mp3",
+                              documentsDirectory, randomStr];
+        //create content - four lines of text
+        
+        //save content to the documents directory
+        [data writeToFile:fileName atomically: YES];
+        
+
+        
+        //[data writeToURL:[NSURL fileURLWithPath:NSDocumentDirectory atomically:YES];
+        NSLog(@"Async Request Completed");
+        
+    }];
     
-    NSLog(@"Return String= %@",returnString);
+   
+    NSLog(@"Sent Async Request");
+    UIAlertController* alert = [UIAlertController alertControllerWithTitle:@"Building your tune" message:@"You'll receive a notification when your tune is complete." preferredStyle: UIAlertControllerStyleAlert];
+    UIAlertAction *defaultAction = [UIAlertAction actionWithTitle:@"OK" style:UIAlertActionStyleDefault handler:^(UIAlertAction * action) {}];
+    [alert addAction:defaultAction];
+    [self presentViewController:alert animated:YES completion:nil];
+    //NSLog(@"Return String= %@",returnString);
 }
 - (IBAction)record:(id)sender {
     NSLog(@"Record Clicked");
+    
     if (self.isRecording) {
         NSLog(@"Stopping Recording");
+        [sender setBackgroundColor: [UIColor grayColor]];
         [self.sequencer stop];
         
         //[self.trackView setNeedsDisplay:YES];
         return;
     } else {
         NSLog(@"Recording");
+        [sender setBackgroundColor: [UIColor redColor]];
+        
         if (!self.sequence) self.sequence = [MIKMIDISequence sequence];
         NSError *error = nil;
         MIKMIDITrack *newTrack = [self.sequence addTrackWithError:&error];
@@ -84,6 +114,7 @@
         }
         
         self.sequencer.recordEnabledTracks =[NSSet setWithObject:newTrack];
+        [self.sequencer setCommandScheduler:self.synthesizer forTrack: newTrack ];
         [self.sequencer startRecording];
     }
     
@@ -103,9 +134,12 @@
     self.sequencer = [MIKMIDISequencer sequencerWithSequence:self.sequence];
     self.sequencer.preRoll = 0;
     self.sequencer.clickTrackStatus = MIKMIDISequencerClickTrackStatusDisabled;
+    
 	for (UIButton *button in self.pianoButtons) {
 		[button addTarget:self action:@selector(pianoKeyDown:) forControlEvents:UIControlEventTouchDown];
+        [button addTarget:self action:@selector(pianoKeyDown:) forControlEvents:UIControlEventTouchDragEnter];
 		[button addTarget:self action:@selector(pianoKeyUp:) forControlEvents:UIControlEventTouchUpInside];
+        [button addTarget:self action:@selector(pianoKeyUp:) forControlEvents:UIControlEventTouchDragExit];
 		[button addTarget:self action:@selector(pianoKeyUp:) forControlEvents:UIControlEventTouchUpOutside];
 		[button addTarget:self action:@selector(pianoKeyUp:) forControlEvents:UIControlEventTouchCancel];
 	}
